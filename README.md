@@ -7,7 +7,7 @@ Module to connect to a postgres database...
 x = db_connect(username, password, url_to_server, database_name)
 
 #Make a query on the database
-df = x.query("""
+df = x.conn.query("""
 		  ENTER THE 
 		  QUERY HERE!!
 	  """)
