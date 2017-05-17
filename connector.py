@@ -1,9 +1,5 @@
 """
-------------------------
-Shyft Technologies Inc.
-Shyft - Apr 2017
-------------------------
-Module to connect to Shyft databases.
+Module to connect to databases.
 
 -Bryan Burlingame
 """
@@ -14,7 +10,7 @@ import numpy as np
 import os
 
 class db_connect():
-    """Class to connect to Shyft Databases"""
+    """Class to connect to Databases"""
 
     def __init__(self, username, password, url, database):
         """Init"""
